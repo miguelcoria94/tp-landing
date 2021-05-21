@@ -109,3 +109,14 @@ section img {
         width: 200px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    section input {
+        width: 140px;
+        font-size: 9px;
+    }
+    section button {
+        width: 109px;
+        font-size: 9px;
+    }
+}
