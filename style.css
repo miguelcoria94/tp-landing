@@ -55,9 +55,14 @@ section button {
     border: 2px solid #1a535c;
 }
 
-section img {
+.header-img {
     border-radius: 40px;
     border: 10px solid #1a535c;
+}
+
+section img {
+    border-radius: 40px;
+    border: 1px solid #74C0BC;
 }
 
 .image-fix {
