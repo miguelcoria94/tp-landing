@@ -60,6 +60,10 @@ section img {
     border: 10px solid #1a535c;
 }
 
+.image-fix {
+    padding-bottom: 70px;
+}
+
 @media only screen and (max-width: 1200px) {
     nav a img {
         height: 40px;
@@ -78,6 +82,9 @@ section img {
 }
 
 @media only screen and (max-width: 800px) {
+    .image-fix {
+        padding-bottom: 0px;
+    }
     .img-fluid {
         margin-top: 50px;
     }
