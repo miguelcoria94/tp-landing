@@ -110,7 +110,7 @@ section img {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     section input {
         width: 140px;
         font-size: 9px;
