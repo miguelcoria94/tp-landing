@@ -31,11 +31,17 @@ section form {
 section input {
     border-radius: 40px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 10px;
     font-size: 12px;
     width: 300px;
     padding-left: 20px;
+    border: 2px solid #0000002f;
+}
+
+section input:focus {
+    outline: none;
+    border: 2px solid #58C5BF;
+    box-shadow: #58c5c088 0px 1px 4px;
 }
 
 section button {
@@ -46,6 +52,7 @@ section button {
     font-size: 12px;
     color: white;
     background-color: #1a535c;
+    border: 2px solid #1a535c;
 }
 
 section img {
